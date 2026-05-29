@@ -1,26 +1,28 @@
 # cocapn-oneiros
 
-Latent room generation — dream rooms into existence from the latent manifold.
+Dream cycle simulation for the Cocapn Fleet — agents process and consolidate experiences during idle periods, inspired by sleep-stage memory consolidation.
 
-Oneiros (Greek god of dreams) generates new PLATO rooms from latent knowledge patterns. When the fleet identifies gaps in its knowledge coverage, Oneiros dreams up new rooms to fill them.
+## What This Gives You
 
-## What It Does
+- **Dream cycle processing** — offline experience consolidation for fleet agents
+- **Python package** — installable via pip with CI pipeline
+- **Test suite** — validated dream cycle behavior
 
-1. **Analyze** — Scan existing rooms for coverage gaps
-2. **Dream** — Generate new room specifications from latent patterns
-3. **Populate** — Seed rooms with initial knowledge tiles
-4. **Connect** — Create exits to existing rooms
-
-## Installation
+## Quick Start
 
 ```bash
 pip install cocapn-oneiros
 ```
 
-## Part of the Cocapn Fleet
+## How It Fits
 
-Works with PLATO Room Server to expand the knowledge graph organically.
+Part of the Cocapn Fleet's cognitive architecture. Named after Oneiros, the Greek personification of dreams.
+
+Related repos:
+- [cocapn-dreamer](https://github.com/SuperInstance/cocapn-dreamer) — dream engine
+- [cocapn-core](https://github.com/SuperInstance/cocapn-core) — core fleet library
+- [cocapn-training](https://github.com/SuperInstance/cocapn-training) — training data management
 
 ## License
 
-MIT
+Apache 2.0
